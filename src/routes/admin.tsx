@@ -15,7 +15,7 @@ export const Route = createFileRoute("/admin")({
   component: Admin,
 });
 
-const empty = { name: "", date: "", venue: "", category: CATEGORIES[0], description: "", featured: false };
+const empty = { name: "", date: "", venue: "", category: "Tech", description: "", featured: false };
 const input = "w-full border-2 border-foreground bg-card px-3 py-2 outline-none focus:ring-2 focus:ring-primary";
 
 function Admin() {

@@ -81,7 +81,7 @@ function Register() {
                   <option value="">Select…</option>
                   {["1st Year", "2nd Year", "3rd Year", "4th Year", "Postgrad"].map((y) => <option key={y}>{y}</option>)}
                 </select>
-                {errors.year && <span className="text-sm text-destructive">{errors.year}</span>}
+                {errors["year"] && <span className="text-sm text-destructive">{errors["year"]}</span>}
               </label>
             </div>
             {field("phone", "Phone number", "tel")}
