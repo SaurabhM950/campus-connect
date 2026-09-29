@@ -10,7 +10,7 @@ export function EventCard({ e }: { e: ClubEvent }) {
         <span className="text-muted-foreground">{fmtDate(e.date)}</span>
       </div>
       <h3 className="mt-4 font-display text-2xl leading-tight">{e.name}</h3>
-      <p className="mt-1 text-sm font-medium text-muted-foreground">📍 {e.venue}</p>
+      <p className="mt-1 text-sm font-medium text-muted-foreground">Venue: {e.venue}</p>
       <p className="mt-3 flex-1 text-sm">{e.description}</p>
       {past ? (
         <span className="mt-5 text-center text-sm text-muted-foreground">Event ended</span>

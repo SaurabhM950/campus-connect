@@ -58,7 +58,7 @@ function Register() {
         <span className="bg-accent px-2 py-1 text-xs font-semibold uppercase text-accent-foreground">{ev.category}</span>
         <h1 className="mt-4 font-display text-5xl">{ev.name}</h1>
         <p className="mt-3 font-medium">{fmtDate(ev.date)}</p>
-        <p className="text-muted-foreground">📍 {ev.venue}</p>
+        <p className="text-muted-foreground">Venue: {ev.venue}</p>
         <p className="mt-4">{ev.description}</p>
       </div>
       <div className="border-2 border-foreground bg-card p-6 shadow-[6px_6px_0_var(--foreground)]">
